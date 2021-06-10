@@ -1,0 +1,10 @@
+name: debugging-with-functions
+namespace: ""
+runtime: node
+image: docker.io/lholmquist/debugging-with-functions:latest
+imageDigest: ""
+trigger: http
+builder: default
+builderMap:
+  default: quay.io/boson/faas-nodejs-builder:tip
+envVars: {}
